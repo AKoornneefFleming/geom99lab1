@@ -14,6 +14,8 @@ First step is to deploy the template into your own account.
 2. Set the Repository Name as exactly `geom99lab1` (PS: this is case sensitive, so all lowercase please!)
 3. Make the repository Public. 
 4. Click Create Repository from Template to start the migration. Once complete, it will open to the ReadMe.md in the root of the repository under your account. You now have a "copy" of all files and can modify, edit and use these files to learn. 
+##Done
+
 
 ### You must enable GitHub pages to view HTML documents at the url `[username].github.io/geom99lab1/`. 
 
