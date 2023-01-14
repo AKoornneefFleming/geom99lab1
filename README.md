@@ -30,7 +30,7 @@ Now your repository will be accessible under GitHub Pages (an HTML Web Server) a
 
 In this repository you will need to create content in this repository from the following activities:
 
-- [x Google MyMaps Sharkspotters tutorial. 
+- [x] Google MyMaps Sharkspotters tutorial. 
 - [x] Maps - Simple HTML Map Example
 - [ ] Routes - Directions API - URL request JSON response
 - [ ] Modify Dynamic Map Clustering example to show Ontario Parks
