@@ -35,6 +35,7 @@ In this repository you will need to create content in this repository from the f
 - [ ] Routes - Directions API - URL request JSON response
 - [ ] Modify Dynamic Map Clustering example to show Ontario Parks
 - [ ] Create your Story using Google Dynamic Maps (JavaScript) in the provided folder
+- [x] Adding a list item to confirm if page commits are still working. 
 
 > Optional Tip: You can check the above boxes by editing this MarkDown document and adding an `x` between the `[ ]`, like this: `[x]`
 
