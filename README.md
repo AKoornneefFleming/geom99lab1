@@ -1,5 +1,5 @@
 # Geom99 - Explore Google Maps 
-
+TEST LINE
 ## Welcome and Instructions
 
 For the Google Maps exercises in Week 1 and 2 we are using GitHub as our primary development platform. This repository is a template and you will deploy it into your own GitHub account, modify the provided files and create your own solutions. During the practical lab you will submit URLs to the various resources here. 
