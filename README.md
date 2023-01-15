@@ -1,5 +1,4 @@
 # Geom99 - Explore Google Maps 
-TEST LINE
 ## Welcome and Instructions
 
 For the Google Maps exercises in Week 1 and 2 we are using GitHub as our primary development platform. This repository is a template and you will deploy it into your own GitHub account, modify the provided files and create your own solutions. During the practical lab you will submit URLs to the various resources here. 
@@ -32,10 +31,10 @@ In this repository you will need to create content in this repository from the f
 
 - [x] Google MyMaps Sharkspotters tutorial. 
 - [x] Maps - Simple HTML Map Example
-- [ ] Routes - Directions API - URL request JSON response
+- [x] Routes - Directions API - URL request JSON response
 - [ ] Modify Dynamic Map Clustering example to show Ontario Parks
 - [ ] Create your Story using Google Dynamic Maps (JavaScript) in the provided folder
-- [x] Adding a list item to confirm if page commits are still working. 
+
 
 > Optional Tip: You can check the above boxes by editing this MarkDown document and adding an `x` between the `[ ]`, like this: `[x]`
 
