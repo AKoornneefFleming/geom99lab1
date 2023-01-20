@@ -51,7 +51,25 @@
             margin: 5px; /*General spacing formatting*/
             margin-left: 10px;
         }
+        
+        /* Source: Google Maps Github, JS Samples
+        https://googlemaps.github.io/js-samples/  */
+        #myMap {
+            height: 800px;
+            width: 100%;
+        }
     </style>
+    
+    <script>
+        let map;
+  
+        function initMap() {
+          map = new google.maps.Map(document.getElementById("myMap"), {
+            center: { lat: 48.408601, lng: -91.504707 },
+            zoom: 10,
+          });
+        }
+      </script>
 </head>
 
 <body>
@@ -69,5 +87,16 @@
         <h3>Trip Beta</h3>
     </div>
 
+    <!-- Source: Google Maps Github, JS Samples
+    https://googlemaps.github.io/js-samples/ -->
+    <div id="myMap"></div>
+   
+    <!-- Source: Google Maps Github, JS Samples
+    https://googlemaps.github.io/js-samples/ -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly"
+      defer
+    ></script>
 
 </body>
+</html>
