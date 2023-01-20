@@ -33,7 +33,6 @@ In this repository you will need to create content in this repository from the f
 - [x] Maps - Simple HTML Map Example
 - [x] Routes - Directions API - URL request JSON response
 - [x] Modify Dynamic Map Clustering example to show Ontario Parks 
-- [ ] DBL CHECK REFRESH THAT RECENTER IS VALID WITH FRESH BROWSER CASCHE
 - [ ] Create your Story using Google Dynamic Maps (JavaScript) in the provided folder
 
 
