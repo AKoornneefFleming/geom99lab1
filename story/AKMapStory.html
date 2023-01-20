@@ -2,42 +2,61 @@
 <head>
     <meta charset="utf-8">
     <title>AKMapStory</title>
+    <style>
+        body {
+            background-color: #262421;
+        }
+    
+        h1 {
+            font-size: 48px; 
+            color: white;
+            text-align: center;
+            text-decoration-line: underline;
+            text-decoration-color: #F2A74F;
+            font-family: Papyrus, Fantasy, Helvetica, sans-serif; 
+        }
+
+        h2 {
+            font-family: "Lucida Handwriting", cursive, sans-serif; /*Two font families included as backup incase of browser compatibility*/
+            font-size: 22px;	
+            color: #F2A74F; /*ADD MORE CONDITONS*/
+            text-transform: uppercase;
+        }
+    
+        * p {
+            color: white;
+            font-family: Helvetica, sans-serif; /*Secondary font provided in case of browser compatibility issues*/
+        }
+    
+        header.A {
+            background-color: #777; /*For browsers that do not support gradients */
+            background-image: linear-gradient(to bottom right, #C0C0C0, #808080); /*w3schools - css gradients */
+            padding: 15px; /*space formatting */ 
+            border-radius: 5px; /*border shaping of header*/ 
+            border: 1px solid black; /*basic formatting*/ 
+            text-align: center; /*center-align the header text*/ 
+            margin: 20px; /*space formatting */
+        }
+
+        div.IndexA  {
+            padding: 5px; /*General spacing formatting*/
+            margin: 5px; /*General spacing formatting*/
+            margin-left: 10px;
+        }
+    </style>
 </head>
-<stlye>
-    body{
-        background-color: #262421;
-    }
 
-    h1 {
-        font-size: 48px; 
-        color: white;
-        text-align: center;
-        text-decoration-line: underline;
-        text-decoration-color: #F2A74F;
-        font-family: Papyrus, Fantasy, Helvetica, sans-serif; 
-    }
-
-    }
-    * p {
-        color: white;
-        font-family: Helvetica, sans-serif; /*Secondary font provided in case of browser compatibility issues*/
-    }
-
-    header.A {
-        background-color: #777; /*For browsers that do not support gradients */
-        background-image: linear-gradient(to bottom right, #C0C0C0, #808080); /*w3schools - css gradients */
-        padding: 15px; /*space formatting */ 
-        border-radius: 5px; /*border shaping of header*/ 
-        border: 1px solid black; /*basic formatting*/ 
-        text-align: center; /*center-align the header text*/ 
-        margin: 20px; /*space formatting */
-    }
-
-</stlye>
 <body>
     <header class="A">
         <h1>Upper Mace Lake Loop</h1>
     </header>
+    
+    <div class = "IndexA">
+        <h2>A tripper's guide</h2>
+        <p>A tripper's guide to the Upper Mace Lake Loop.</p>
+        <p>Trip inspired by Kevin Callen's 'Onatio's Lost Canoe Routes'.</p>
+    </div>
+        
 
 
 </body>
