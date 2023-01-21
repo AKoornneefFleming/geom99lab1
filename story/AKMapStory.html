@@ -18,7 +18,7 @@
         }
 
         h2 {
-            font-size: 38px; /*ADD MORE CONDITONS, INCLUDING PRIMARY AND BACKUP FONTS*/
+            font-size: 38px; 
             color: white;
             text-shadow: 1px 1px 1px red;
             font-style: italic;
@@ -28,7 +28,7 @@
         h3 {
             font-family: "Lucida Handwriting", cursive, sans-serif; /*Two font families included as backup incase of browser compatibility*/
             font-size: 22px;	
-            color: #F2A74F; /*ADD MORE CONDITONS*/
+            color: #F2A74F; 
             text-transform: uppercase;
         }
     
@@ -76,9 +76,12 @@
         // Google Maps Platform
         // https://developers.google.com/maps/documentation/javascript/markers#maps_icon_simple-typescript
         // image: favpng.com
+        
+        //Tent image
         const GTentimage =
             "green_tent.png";
-     
+
+        //Setting Markers
         const CampsiteA = new google.maps.Marker({
             position: { lat: 46.55264320098154, lng: -82.78219333721758 },
             map,
@@ -159,6 +162,7 @@
 
         // https://googlemaps.github.io/js-samples/
         // https://developers.google.com/maps/documentation/javascript/shapes#polylines
+        // Creating polyline coordinates
 
         const flightPlanCoordinates = [
             { lat: 46.4824869260066, lng: -82.6504431006048},
@@ -247,6 +251,7 @@
             { lat: 46.4961484508472, lng: -82.76839826775618},
         ];
         
+        //Styling markers
         const flightPath = new google.maps.Polyline({
             path: flightPlanCoordinates,
             geodesic: true,
@@ -291,6 +296,6 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly"
       defer
     ></script>
-    
+
 </body>
 </html>
