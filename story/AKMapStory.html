@@ -260,8 +260,17 @@
             strokeWeight: 3,
         });
 
+        // https://developers.google.com/maps/documentation/javascript/shapes#polylines
+        // Including details from Developer's Guide for future reference:
+        // https://developers.google.com/maps/documentation/javascript/reference/map
+        // getMap()      Parameters:  None       Return Value:  Map
+        // "Returns the map on which this layer is displayed"
+        
         flightPath.setMap(map);
 
+        // Google Maps Platform
+        // https://developers.google.com/maps/documentation/javascript/markers#maps_icon_simple-typescript
+        
         window.initMap = initMap;
         }
 
