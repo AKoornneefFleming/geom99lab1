@@ -77,11 +77,20 @@
             mapTypeId: 'terrain'
         });
 
+        const labelA = new google.maps.MarkerLabel({
+            text: "Night 1",
+            color: "gold",
+            fontFamily: "monospace",
+            fontSize: "20px"
+        })
+
         // Declaring constant variables for images and markers
         // Google Maps Platform
         // https://developers.google.com/maps/documentation/javascript/markers#maps_icon_simple-typescript
     
         //Tent image (image: favpng.com)
+
+        
         const GTentimage = "green_tent.png";
 
         //Setting Markers
@@ -270,12 +279,7 @@
             strokeWeight: 3,
         });
 
-        const labelA = new google.maps.MarkerLabel({
-            text: "Night 1",
-            color: "gold",
-            fontFamily: "monospace",
-            fontSize: "20px"
-        })
+
 
 
         // https://developers.google.com/maps/documentation/javascript/shapes#polylines
