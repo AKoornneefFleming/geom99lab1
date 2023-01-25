@@ -89,7 +89,7 @@
             position: { lat: 46.55264320098154, lng: -82.78219333721758 },
             map,
             icon: GTentimage,
-            label: "Night 1",
+            label: labelA,
         });   
         
         const CampsiteB = new google.maps.Marker({
@@ -269,6 +269,14 @@
             strokeOpacity: .5,
             strokeWeight: 3,
         });
+
+        const labelA = new google.maps.MarkerLabel({
+            text: "Night 1",
+            color: "gold",
+            fontFamily: "monospace",
+            fontSize: "20px"
+        })
+
 
         // https://developers.google.com/maps/documentation/javascript/shapes#polylines
         // Including details from Developer's Guide for future reference:
