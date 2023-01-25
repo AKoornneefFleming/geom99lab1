@@ -67,6 +67,7 @@
     <script>
     // Google Maps Platform
     // https://developers.google.com/maps/documentation/javascript/examples/icon-simple
+    //  For reference: https://developers.google.com/maps/documentation/javascript/reference/map
     // Create Map Function //
         function initMap() {
             const map = new google.maps.Map(document.getElementById("myMap"), {
@@ -88,6 +89,7 @@
             position: { lat: 46.55264320098154, lng: -82.78219333721758 },
             map,
             icon: GTentimage,
+            label: "Night 1"
         });   
         
         const CampsiteB = new google.maps.Marker({
@@ -263,7 +265,7 @@
         // https://developers.google.com/maps/documentation/javascript/shapes#polylines
         // Including details from Developer's Guide for future reference:
         // https://developers.google.com/maps/documentation/javascript/reference/map
-        // getMap()      Parameters:  None       Return Value:  Map
+        // Method: setMap()      Parameters:  None       Return Value:  Map
         // "Returns the map on which this layer is displayed"
         
         flightPath.setMap(map);
