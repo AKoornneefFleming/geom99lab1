@@ -77,10 +77,39 @@
             mapTypeId: 'terrain'
         });
 
-        // Unsuccessful -- Couldn't make this marker label object to be pointed at my markers below
+        // Google Maps Platform - Marker Class 
+        // https://developers.google.com/maps/documentation/javascript/reference/marker#MarkerOptions
         const labelA = {
             text: "Night 1",
-            color: "gold",
+            color: "black",
+            fontFamily: "monospace",
+            fontSize: "20px"
+        };
+
+        const labelB = {
+            text: "Night 2",
+            color: "black",
+            fontFamily: "monospace",
+            fontSize: "20px"
+        };
+
+        const labelC = {
+            text: "Night 3",
+            color: "black",
+            fontFamily: "monospace",
+            fontSize: "20px"
+        };
+
+        const labelD = {
+            text: "Night 4/5",
+            color: "black",
+            fontFamily: "monospace",
+            fontSize: "20px"
+        };
+
+        const labelE = {
+            text: "Night 6",
+            color: "black",
             fontFamily: "monospace",
             fontSize: "20px"
         };
@@ -99,36 +128,35 @@
             position: { lat: 46.55264320098154, lng: -82.78219333721758 },
             map,
             icon: GTentimage,
-            // label: "Night 1" -- Doesn't look good without formatting options
-            label: labelA,      // Unsuccessful, couldn't point at my MarkerLabel object without wiping everything else off the map
+            label: labelA,    
         });   
         
         const CampsiteB = new google.maps.Marker({
             position: { lat: 46.579422017060885, lng: -82.76863928189799 },
             map,
             icon: GTentimage,
-            // label: "Night 2",  -- Doesn't look good without formatting options
+            label: labelB, 
         });
 
         const CampsiteC = new google.maps.Marker({
             position: { lat: 46.5629097269641, lng: -82.84300636908785 },
             map,
             icon: GTentimage,
-            // label: "Night 3",
+            label: labelC, 
         });   
         
         const CampsiteD = new google.maps.Marker({
             position: { lat: 46.53475275493398, lng: -82.88485804393648 },
             map,
             icon: GTentimage,
-            // label: "Night 4/5",
+            label: labelD,
         });
  
         const CampsiteE = new google.maps.Marker({
             position: { lat: 46.49378465127514, lng: -82.86610941306793 },
             map,
             icon: GTentimage,
-            // label: "Night 6",
+            label: labelE,
         });
 
         // image obtained from pngtree.com
